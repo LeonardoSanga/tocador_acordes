@@ -113,21 +113,6 @@ python tocador_acordes.py meu_video.mp4
 
 ---
 
-## 🔧 Personalização
-
-As principais opções ficam no topo de `tocador_acordes.py`:
-
-```python
-TOM_INICIAL = 'G'          # tom em que o programa começa
-TIMBRE_INICIAL = 'pad'     # 'pad', 'violao', 'piano' ou 'violino'
-BPM = 92                   # andamento dos timbres batidos (violão e piano)
-FRAMES_ESTAVEIS = 4        # quantos frames o gesto precisa durar
-```
-
-Para criar um timbre novo, escreva uma função que receba a lista de notas e devolva o áudio, e registre-a no dicionário `TIMBRES`.
-
----
-
 ## 📄 Licença
 
 Distribuído sob a licença MIT. Veja o arquivo [`LICENSE`](LICENSE).
